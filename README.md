@@ -24,6 +24,7 @@ $ pingpong:start_pong().	# Start pong :)
 $ erl -sname ping           			# Start a node with name 'ping'
 $ c(pingpong).                   		# Compile the pingpong module
 $ pingpong:start_ping('pong@gvolpe-HXT4').      # Start ping with location of the pong node, that in my case, is the name of my machine 'gvolpe-HXT4'.
+```
 
 ### Messenger
 
